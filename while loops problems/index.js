@@ -22,9 +22,7 @@ while(number < 334){
 console.log('print all numbers divisible by 5 AND 3 between 5 and 50');
 number = 5;
 while(number < 51){
-    if(number % 5 ===0){
-        console.log(number);
-    }else if(number % 3 ===0){
+    if(number % 5 ===0 && number % 3 ===0){
         console.log(number);
     }
     number++;
