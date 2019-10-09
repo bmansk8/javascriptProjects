@@ -14,7 +14,7 @@ console.log(printReverse(array));
 //check if array is uniform
 var arrayTwo = [1,1,1];
 var arrayThree = ['a','a','a'];
-var arrayFour = ['a','b','c']
+var arrayFour = ['a','b','c'];
 
 function isUniform(array) {
     for (let index = 1; index < array.length; index++) {
